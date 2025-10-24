@@ -1,9 +1,21 @@
-import React from "react"
-import { Button } from "@/components/ui/button"
+import * as React from "react"
+import { Routes, Route } from "react-router-dom";
+import Sidebar from "./components/layout/Sidebar";
+import HomePage from "./pages/HomePage";
+import Header from "./components/layout/Header";
+
 function App() {
   return (
-    <div className="flex min-h-svh flex-col items-center justify-center">
-      <Button>Click me</Button>
+    <div className="flex bg-[#F3F4F8] h-screen overflow-hidden rounded-tl-[14px]">
+      <Sidebar />
+
+
+      <main className="flex-1 p-4">
+        <Header />
+        <Routes>
+          <Route path="/marketplace" element={<HomePage />} />
+        </Routes>
+      </main>
     </div>
   )
 }
