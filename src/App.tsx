@@ -10,7 +10,7 @@ function App() {
       <Sidebar />
 
 
-      <main className="flex-1 p-4">
+      <main className="flex-1 p-4 overflow-y-auto overflow-auto hide-scrollbar">
         <Header />
         <Routes>
           <Route path="/marketplace" element={<HomePage />} />

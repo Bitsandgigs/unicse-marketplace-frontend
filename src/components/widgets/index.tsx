@@ -1,7 +1,7 @@
 import Banner from "./Banner"
-import Products from "./Products"
+import Products from "./Products/Products"
 import TestProducts from "./TestProducts"
-import TopCategories from "./TopCategories"
+import TopCategories from "./ TopCategories/TopCategories"
 
 export {
   Banner,

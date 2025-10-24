@@ -37,7 +37,7 @@ export default function Sidebar() {
 
             {/* Sidebar */}
             <aside
-                className={`fixed lg:static top-0 left-0 bg-[#F0E6E6] border-r shadow-lg flex flex-col mt-2 ml-4 transition-all duration-300 ease-in-out
+                className={`fixed lg:static top-0 left-0 bg-[#F0E6E6] shadow-lg flex flex-col mt-2 ml-4 transition-all duration-300 ease-in-out
           ${isOpen ? "w-[348px]" : "w-[80px]"
                     } h-auto overflow-y-auto hide-scrollbar backdrop-blur-xs drop-shadow-md rounded-tl-[28px] rounded-tr-[28px]
         `}
@@ -62,7 +62,7 @@ export default function Sidebar() {
                 <nav className="flex-1 px-2 space-y-1">
                     {menuItems.map((item, idx) => (
                         <NavLink key={idx} to={item.to} className={({ isActive }) =>
-                            `flex items-center gap-4 px-4 py-3 mb-2 cursor-pointer ${isActive ? "bg-blue-500 text-white" : "text-gray-700 hover:bg-gray-200"}`
+                            `w-[293px] flex items-center gap-4 px-4 py-3 mb-2 rounded-[12px] cursor-pointer ${isActive ? "bg-[#943A09] text-white" : "text-gray-700 hover:bg-gray-200"}`
                         }>
                             {item.icon}
                             <span className={`${isOpen ? "inline" : "hidden"} text-[16px] font-medium leading-[100%] `}>

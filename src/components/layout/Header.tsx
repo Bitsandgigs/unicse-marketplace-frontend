@@ -9,7 +9,7 @@ import { Button } from "@/components/ui/button"
 export default function Header() {
   return (
     <header
-      className="flex items-center justify-end bg-[] pl-4 mr-6 pr-8 py-8 my-4 mb-10 h-[91px] shadow-lg relative"
+      className="flex items-center justify-end bg-[] pl-4 mr-6 pr-8 py-8 mb-10 h-[91px] shadow-lg relative"
       style={{ borderRadius: "20px", border : "0.2px solid #00000040" }}
     >
 

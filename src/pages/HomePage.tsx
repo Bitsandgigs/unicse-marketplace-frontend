@@ -10,9 +10,9 @@ export default function HomePage() {
     return (
         <div>
             <Banner />
+            <TopCategories />
             <Products />
             <TestProducts />
-            <TopCategories />
         </div>
     )
 }
