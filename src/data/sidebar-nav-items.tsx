@@ -24,6 +24,13 @@ export default function() {
       icon: <Profile/>,
       htmlAfter: ""
     },
+
+    {
+      title: "Analytics",
+      to: "/dashboard/analytics/overall",
+      icon: <Service/>,
+      htmlAfter: ""
+    },
     {
       title: "Manage Orders",
       icon: <Cube/>,

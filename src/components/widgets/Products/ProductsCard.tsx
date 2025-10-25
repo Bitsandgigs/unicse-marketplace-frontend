@@ -4,7 +4,7 @@ import Shoes from "../../../assets/images/shoes.png";
 export default function ProductCard() {
   return (
     <div
-      className="border w-[219.53524780273438px] h-[257.5px] rounded-lg p-2 shadow-sm bg-white"
+      className="w-[219.53524780273438px] h-[257.5px] rounded-lg p-2 shadow-sm bg-white"
     >
       <img
         src={Shoes}
