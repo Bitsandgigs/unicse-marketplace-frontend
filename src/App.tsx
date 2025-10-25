@@ -7,6 +7,7 @@ import Header from "./components/layout/Header";
 import OrderPage from "./pages/OrderPage";
 import NdrPage from "./pages/NdrPage";
 import ProductPage from "./pages/ProductPage";
+import SourceProductPage from "./pages/SourceProductPage"; 
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/order/manage/pendingcod" element={<OrderPage />} />
           <Route path="/manage-ndr/faileddelivery" element={<NdrPage />} />
           <Route path="/manage-products/pushedToShopify" element={<ProductPage />} />
+          <Route path="/source-product" element={<SourceProductPage />} />
         </Routes>
       </main>
     </div>
