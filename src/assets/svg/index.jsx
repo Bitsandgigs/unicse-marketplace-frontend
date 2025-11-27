@@ -7,7 +7,7 @@ import Payment from './Payment';
 import BusinessProductSupplier from './BusinessProductSupplier';
 import Cube from './Cube';
 import Service from './Service';
-import RecruitmentManagement from './recruitmentManagement';
+import RecruitmentManagement1 from './RecruitmentManagement1';
 import Help from './Help';
 import Support from './Support';
 import TrainingClass from './TrainingClass';
@@ -28,4 +28,4 @@ import HumanIcon from './Human';
 import Pencil from './Pencil';
 import Cart from './Cart';
 
-export { Profile, Faq, Human, Setting, ReportOutline, Payment, BusinessProductSupplier, Cube, Service, RecruitmentManagement, Help, Support, TrainingClass, SearchIcon, CameraIcon, Heart, Star, Arrow, Plus, CircleUpRightArrow, LeftArrowLine, RightArrowLine, Diamond, Paint, Sound, NibPen, HumanIcon, Pencil, Cart };
+export { Profile, Faq, Human, Setting, ReportOutline, Payment, BusinessProductSupplier, Cube, Service, RecruitmentManagement1, Help, Support, TrainingClass, SearchIcon, CameraIcon, Heart, Star, Arrow, Plus, CircleUpRightArrow, LeftArrowLine, RightArrowLine, Diamond, Paint, Sound, NibPen, HumanIcon, Pencil, Cart };

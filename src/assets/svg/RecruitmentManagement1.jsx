@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function RecruitmentManagement({ size = "1.5rem", activePage }) {
+export default function RecruitmentManagement1({ size = "1.5rem", activePage }) {
   return (
     <svg
       width={size}

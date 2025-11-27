@@ -7,7 +7,6 @@ import {
   ReportOutline,
   Payment,
   BusinessProductSupplier,
-  RecruitmentManagement,
   Service,
   Cube,
   Help,
